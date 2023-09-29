@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#90EE90">
+
+    <!-- This is the First Fragment Box -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Fragment"
+            android:padding="20dp"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <!-- Space to separate the box from the button -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <!-- This is the Toast Button just below the First Fragment Box -->
+    <Button
+        android:id="@+id/firstToastButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Toast"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
